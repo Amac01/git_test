@@ -1,9 +1,13 @@
 body {
     background-color: #000;
+    background-image: url(../img/weather.jpeg);
+    background-size: cover;
+    background-position: center;
     color: white;
     font-size: 21px;
 
     font-family: Arial, Helvetica, sans-serif;
+    width: 1000px;
 }
 
 p {
@@ -11,7 +15,9 @@ p {
 }
 
 .intro{
-  font-size: 30px;  
+  font-size: 30px; 
+  background-color: cadetblue; 
+  padding: 50px;
 }
 
 h1 {
@@ -24,6 +30,7 @@ h1 {
 
 h2{
     margin-top: 0px;
+    color: green;
 }
 
 .top-section {
@@ -42,12 +49,30 @@ span {
     font-size: 40px;
 }
 
+a:link{
+    color: black;
+    text-decoration: none;
+}
+
+a:visited{
+    color: pink;
+}
+
+a:active{
+    color: blue;
+}
+
+a:hover{
+    color: #555;
+}
+
 .highlight{
     background: orange;
 }
 
 .accent-color{
     color: crimson;
+    padding: 50px;
 }
 
 /* The CSS Box Model */
@@ -64,4 +89,13 @@ span {
     background-size: cover;
     background-position: center;
   
+}
+
+.new-color{
+    color: crimson;
+    font-size: 30px;
+    line-height: 1.4;
+    font-style: italic;
+    font-weight: lighter;
+    text-decoration: none;
 }
